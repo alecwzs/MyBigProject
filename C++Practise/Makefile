@@ -2,7 +2,7 @@
 
 All:
 	@echo "----------Building project:[ vector - Debug ]----------"
-	@cd "vector\vector" && $(MAKE) -f  "vector.mk"
+	@cd "vector\vector" && "$(MAKE)" -f  "vector.mk"
 clean:
 	@echo "----------Cleaning project:[ vector - Debug ]----------"
-	@cd "vector\vector" && $(MAKE) -f  "vector.mk" clean
+	@cd "vector\vector" && "$(MAKE)" -f  "vector.mk" clean
