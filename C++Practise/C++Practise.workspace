@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="C++Practise" Database="/Users/ewuzong/MyProject/C++Practise/.codelite/C++Practise.tags">
-  <Project Name="vector" Path="vector/vector/vector.project" Active="Yes"/>
+  <Project Name="vector" Path="vector/vector/vector.project" Active="No"/>
+  <Project Name="ass0ciative_container" Path="ass0ciative_container/ass0ciative_container.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
       <Project Name="vector" ConfigName="Debug"/>
+      <Project Name="ass0ciative_container" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
       <Project Name="vector" ConfigName="Release"/>
+      <Project Name="ass0ciative_container" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

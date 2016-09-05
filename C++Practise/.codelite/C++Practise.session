@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session Name="C:\Users\ewuzong\MyProject\C++Practise\C++Practise.workspace">
-  <int Value="0" Name="m_selectedTab"/>
-  <wxString Value="C:\Users\ewuzong\MyProject\C++Practise\C++Practise.workspace" Name="m_workspaceName"/>
+<Session Name="D:\MyProj\MyBigProject\C++Practise\C++Practise.workspace">
+  <int Value="1" Name="m_selectedTab"/>
+  <wxString Value="D:\MyProj\MyBigProject\C++Practise\C++Practise.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="C:\Users\ewuzong\MyProject\vector\vector\main.c" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="0" Name="CurrentLine"/>
+      <wxString Value="D:\MyProj\MyBigProject\C++Practise\vector\vector\main.cpp" Name="FileName"/>
+      <int Value="5" Name="FirstVisibleLine"/>
+      <int Value="19" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="D:\MyProj\MyBigProject\C++Practise\ass0ciative_container\main.cpp" Name="FileName"/>
+      <int Value="9" Name="FirstVisibleLine"/>
+      <int Value="21" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
