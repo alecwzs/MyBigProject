@@ -5,8 +5,8 @@
 ## Debug
 ProjectName            :=vector
 ConfigurationName      :=Debug
-WorkspacePath          := "C:\Users\ewuzong\MyProject\C++Practise"
-ProjectPath            := "C:\Users\ewuzong\MyProject\C++Practise\vector\vector"
+WorkspacePath          := "C:\Users\ewuzong\MyBigProject\C++Practise"
+ProjectPath            := "C:\Users\ewuzong\MyBigProject\C++Practise\vector\vector"
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
@@ -91,7 +91,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main$(ObjectSuffix): main.cpp $(IntermediateDirectory)/main$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/ewuzong/MyProject/C++Practise/vector/vector/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/ewuzong/MyBigProject/C++Practise/vector/vector/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main$(DependSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main$(ObjectSuffix) -MF$(IntermediateDirectory)/main$(DependSuffix) -MM "main.cpp"
 
