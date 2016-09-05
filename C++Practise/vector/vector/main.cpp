@@ -11,6 +11,9 @@ int main(int argc, char **argv)
 	vector<string>::iterator iter = svec.begin() + svec.size();
 	cout << "*iter= " << *(iter-1)<< endl;
 	cout << "*iter= " << *(iter-2)<< endl;
+	svec.push_back("woaini");
+	iter = svec.begin() + svec.size();
+	cout<<"*iter= "<<*(iter-1)<<endl;
 	printf("hello world\n");
 	getchar();
 	return 0;
